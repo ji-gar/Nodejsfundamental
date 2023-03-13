@@ -8,7 +8,7 @@ console.log("Asynorouns calls")
 file.readFile("Jigar/data.txt","utf-8",(err,data)=>{
     if(err)
     {
-        console.log(err)
+        console.log("hello word"+err)
     }
     else{
         console.log(data)
